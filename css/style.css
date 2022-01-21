@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.logo{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img{
+    width: 40%;
+    border: 2px solid black;
+    border-radius: 50px;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+}
+
+.nav-list{
+    width: 50%;
+   /* background-color:orange;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-list li{
+    list-style: none;
+    padding: 21px 29px;
+}
+
+.nav-list li a{
+    text-decoration: none;
+    color: white;
+}
+
+.nav-list li a:hover{
+    text-decoration: none;
+    color: green;
+}
+
+.rightNav{
+    width: 50%;
+   /* background-color:green ;*/
+    text-align: end;
+}
+
+#search{
+    padding: 5px;
+    font-size: 17px;
+    border: 2px solid blue;
+    border-radius: 9px;
+}
+
+.background{
+    background: rgba(0, 0, 0, 0.7)url('/home/priyanka/Desktop/Troopindia/Rajsthan img/Beach.jpg')
+    
+}
+.firstsection{
+    height: 100vh;
+}
+
+.box-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 75%;
+    margin: auto;
+    height: 100%;
+}
+
+.fh{
+    width: 68%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.sh{
+    width: 80%;
+}
+.sh img{
+    width: 70%;
+    padding: 2px 0;
+    border: 4px solid black;
+    border-radius: 100px;
+    display: block;
+    margin: auto;
+
+}
+.text-big{
+        font-size: 24px;
+        
+}
+
+.text-small{
+        font-size: 16px;
+}
+
+.btn{
+        padding: 4px 25px;
+        margin: 8px 4px;
+        font-size: 18px;
+        border-radius: 6px;
+        background: none;
+        color: white;
+        border: 2px solid white;
+        cursor: pointer;
+}
+
+.btn-sm{
+        padding: 4px 20px;
+        vertical-align: middle;
+}
+
+.section{
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width:80%;
+    margin: auto;
+    font-family: 'Ubuntu', sans-serif;
+}
+.text
+
+.section-left{
+    flex-direction: row-reverse;
+}
+
+.paras{
+    padding: 0 98px;
+}
+
+.sectionSubTag{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
